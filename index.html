@@ -136,6 +136,22 @@
 
 </section>
   <style>
+    /* Your existing styles here... */
+
+/* When the screen width is above 600px */
+@media (min-width: 601px) {
+  .form-row {
+    display: flex;
+    justify-content: space-between; /* This will ensure spacing between the label and input */
+    align-items: center;
+  }
+
+  /* These widths might need to be adjusted based on your other styles and preferences */
+  #name, #email {
+    width: 45%; /* This ensures that two fields will fit in one line with some space in between */
+  }
+}
+
 .contact-links {
   display: flex;
   justify-content: center;
