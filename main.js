@@ -829,7 +829,7 @@
                     r()(g.Z, h), g.Z && g.Z
                     .locals && g.Z.locals;
                 const v = ["Skills",
-                        "Projects", "Contact"
+                         "Contact"
                     ],
                     x = () => {
                         const n = u("div",
